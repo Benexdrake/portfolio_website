@@ -1,0 +1,348 @@
+:root {
+    --color1: #303841;
+    --color2: #3A4750;
+    --color3: #EA9215;
+    --color4: #EEEEEE;
+}
+
+.body {
+    background-color: var(--color2);
+    color: var(--color4);
+    margin: 70px 20px 20px 20px;
+}
+
+.bg-color1 {
+    background-color: var(--color1);
+}
+
+.bg-color2 {
+    background-color: var(--color2);
+}
+
+.bg-color3 {
+    background-color: var(--color3);
+}
+
+.bg-color4 {
+    background-color: var(--color4);
+}
+
+.text-color1 {
+    color: var(--color1);
+}
+
+.text-color2 {
+    color: var(--color2);
+}
+
+.text-color3 {
+    color: var(--color3);
+}
+
+.text-color4 {
+    color: var(--color4);
+}
+
+.border-color3 {
+    border-color: var(--color3);
+}
+
+.block {
+    margin: 10px 0px 20px 0;
+    border-radius: 10px;
+    background-color: var(--color1);
+}
+
+.impressum-block
+{
+    margin: 20px 0;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: var(--color1);
+}
+
+/* div Tables */
+
+.css-table {
+    display: table;
+}
+
+.css-table-row {
+    display: table-row;
+}
+
+.css-table-row div {
+    display: table-cell;
+
+    padding: 5px 0px;
+    min-width: 100px;
+}
+
+.css-table-row-attributes
+{
+    display: table-cell;
+    padding: 10px;
+}
+
+.css-table-row .css-table-row-attributes {
+    min-width: 50px;
+}
+
+.css-table-row-cv {
+    display: table-cell;
+}
+
+.css-table-row .css-table-row-cv {
+    width: 300px;
+}
+
+/* Profile Image */
+
+.aboutMe-Image {
+    border: 5px solid var(--color3);
+    border-radius: 100%;
+}
+
+/* Navbar */
+
+.nav-header {
+    background-color: var(--color1);
+    border-bottom: 5px solid var(--color3);
+}
+
+.nav-button {
+    color:  var(--color4);
+}
+
+.nav-button:hover {
+    border-bottom: 2px solid var(--color3);
+    color: var(--color4);
+    padding-bottom: 2px;
+}
+
+.nav-button:focus {
+    color: var(--color3);
+    border-bottom: 2px solid var(--color3);
+    padding-bottom: 2px;
+}
+
+.cv-button {
+    background-color: var(--color3);
+    color: var(--color4);
+    border: 2px solid var(--color4);
+}
+
+/* CV */
+
+.cv-left {
+    padding: 40px;
+    width: 400px;
+}
+
+.cv-right {
+    padding: 40px;
+}
+
+.cv-list {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color4);
+    color: var(--color1);
+}
+
+.cv-button:hover {
+    background-color: var(--color2);
+    color: var(--color3);
+    border: 2px solid var(--color3);
+}
+
+.link {
+    padding: 0;
+    text-decoration: none;
+    color: var(--color4);
+    background-color: var(--color1);
+}
+
+.link:hover {
+    color: var(--color3);
+}
+
+div>i.icon {
+    font-size: 1rem;
+}
+
+/* Projects */
+
+.projects {
+    background-color: var(--color1);
+    border-radius: 0;
+}
+
+.projects:hover {
+    background-color: var(--color3);
+}
+
+/* Skills */
+
+.skill-block {
+    border-radius: 10px;
+    min-width: 23rem;
+    max-width: 23rem;
+}
+
+.skillHeader {
+    text-align: center;
+    color: var(--color3);
+}
+
+.skills {
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--color4);
+    background-color: var(--color1);
+}
+
+.skill-icon {
+    width: 50px;
+    background: transparent;
+}
+
+.skill-icon:hover {
+    transform: translate3D(0, -1px, 0) scale(2.00);
+}
+
+/* Icons */
+
+.icon {
+    display: inline;
+    font-size: 2rem;
+    margin: 3px;
+    color: var(--color3);
+    background-color: var(--color1);
+}
+
+.icon:hover {
+    color: var(--color4);
+}
+
+/* Stars */
+
+.stars {
+    font-size: 1.5rem;
+    color: var(--color3);
+}
+
+.stars:hover {
+    color: var(--color4);
+}
+
+h4.text-color3 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+h3.text-color3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Project Cards*/
+
+.card-crunchyroll {
+    width: 12rem;
+    height: 18rem;
+    perspective: 1000px;
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+
+.card-crunchyroll-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border: 3px solid black;
+    border-radius: 0.6rem;
+}
+
+.card-crunchyroll-front {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.6rem;
+}
+
+.card-crunchyroll-back {
+    border-radius: 0.6rem;
+    background-image: url('../public/assets/crunchyroll_back.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+}
+.card-crunchyroll-front, .card-crunchyroll-back {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-crunchyroll:hover .card-crunchyroll-inner {
+    transform: rotateY(180deg);
+}
+
+.card-crunchyroll-header {
+    background-color: rgb(50,50,50, 0.8);
+    color: var(--color4);
+    padding-bottom: 10px;
+}
+
+.card-crunchyroll-bottom-buttons {
+    padding-bottom: 0.5rem;
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.1rem
+}
+
+.card-crunchyroll-tag-button {
+    background-color: var(--color3);
+    color: var(--color4);
+    font-weight: bold;
+    border-radius: 3%;
+    font-size: 0.8rem;
+}
+
+.card-crunchyroll-bottom {
+    background-color: rgb(50,50,50, 0.8);
+}
+
+.card-crunchyroll-bottom-rating {
+    color: var(--color3);
+}
+
+.card-crunchyroll-bottom-desc {
+    color: var(--color4);
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
+
+.card-crunchyroll-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.pokemon-shadow {
+    filter: drop-shadow(10px 10px 10px #000)
+}
+
