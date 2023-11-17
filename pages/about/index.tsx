@@ -18,30 +18,27 @@ export default function CV(props: any) {
                 <div className='header3'>
                   <h3 className="color3">CONTACT INFO</h3>
                 </div>
-                
-
                 <CvContactBlock aboutMe={aboutMe} />
-                <hr className="color4  break_line"/>
+                <hr className="color4  break_line" />
                 <div>
                   <div className='header3'>
                     <h3 className="color3">SKILLS</h3>
                   </div>
                   <br />
-                      <CvSkillsBlock skills={aboutMe.skills} type="frontend" title="Frontend"/>
-                      <CvSkillsBlock skills={aboutMe.skills} type="backend" title="Backend" />
-                      <CvSkillsBlock skills={aboutMe.skills} type="others" title="Others" />
+                  <CvSkillsBlock skills={aboutMe.skills} type="frontend" title="Frontend" />
+                  <CvSkillsBlock skills={aboutMe.skills} type="backend" title="Backend" />
+                  <CvSkillsBlock skills={aboutMe.skills} type="others" title="Others" />
                 </div>
               </div>
             </div>
             <div className="cv-right" >
-              
-                <h3 className="color3 header3">PROFILE</h3>
-              {aboutMe.profileText.map((x: string) => { return <p style={{maxWidth:'600px'}} key={x} className='color1'>{x}</p> })}
+              <h3 className="color3 header3">PROFILE</h3>
+              {aboutMe.profileText.map((x: string) => { return <p style={{ maxWidth: '600px' }} key={x} className='color1'>{x}</p> })}
               <CvTableBlock aboutMe={aboutMe} type="experience" title="EXPERIENCE" />
               <CvTableBlock aboutMe={aboutMe} type="education" title="EDUCATION" />
-              </div>
             </div>
           </div>
+        </div>
       )}
     </div>
   )

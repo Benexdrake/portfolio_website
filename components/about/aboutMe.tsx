@@ -30,8 +30,6 @@ export default function AboutMeBlock(abouttMe:any)
               Download CV</a>
             </div>
             <br />
-            <br />
-            <br />
           </div>
           <div><img className="about_image" src="/Me.png" alt="" />
           
