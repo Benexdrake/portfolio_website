@@ -33,7 +33,7 @@ export default function AboutMeBlock(abouttMe:any)
             <br />
             <br />
           </div>
-          <div><img className="about_image" src="Me.png" alt="" />
+          <div><img className="about_image" src="/../../../Me.png" alt="" />
           
           <div className="icons">
                 <a href={me.github} className="icon">
