@@ -9,8 +9,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
+
 body{
     background-color: var(--color2);
 }
@@ -35,7 +36,7 @@ body{
 .container
 {
     margin: auto;
-    padding: 1rem;
+    padding: 0rem;
     max-width: 1000px;
 }
 
@@ -54,66 +55,10 @@ body{
     min-width: 100px;
 }
 
-/* Navbar */
-
-.navbar_body {
-    height: 4rem;
-    background-color: var(--color1);
-    border-bottom: 5px solid var(--color3);
-    display: flex;
-    position: fixed;
-    width: 100%;
-}
-
-.navbar_links {
-    margin: auto;
-}
-
-.navbar_links ul {
-    list-style-type: none;
-    overflow: hidden;
-    display: flex;
-}
-
-.navbar_links li {
-    margin: 0;
-    padding: 10px;
-}
-
-.navbar_body a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-.navbar_links a:hover {
-    color: var(--color3);
-    border-bottom: 0.2rem solid var(--color3);
-}
-
-/* Home */
-
-.cv_btn {
-    background-color: var(--color3);
-    color: white;
-    padding: 10px 20px;
-    border: 3px solid var(--color4);
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bolder;
-}
-
-.cv_btn:hover {
-    background-color: var(--color2);
-    border-color: var(--color3);
-}
-
 .box {
     background-color: var(--color1);
     height: auto;
-    margin: 0 auto 1rem auto;
+    margin: 1rem auto;
     max-width: 100%;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -125,78 +70,17 @@ body{
     justify-content: space-between;
 }
 
-.about_image {
-    width: 200px;
-    height: 200px;
-    border: .3rem solid var(--color3);
-    border-radius: 100%;
-}
-.motivation-text {
-    max-width:38rem;
-    color: var(--color4);
-    padding-bottom: 10px;
-    text-align:justify;
-}
-
-.icons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    justify-content: center;
-}
-
-.icon {
-    font-size: 2.5rem;
+.stars {
+    font-size: 1.5rem;
     color: var(--color3);
 }
 
-.icon:hover {
+.stars:hover {
     color: var(--color4);
 }
 
-.skill_block {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    gap: 10px;
-    border: 0.1rem solid var(--color3);
-    box-shadow: 0 0 20px var(--color3);
-    padding: 20px;
-    border-radius: 6px;
-}
-
-.skill {
-    background-color: var(--color2);
-    padding: 5px;
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 0 5px 10px black;
-    color: var(--color3);
-}
-
-.github_project {
-    background-color: var(--color2);
-    border: 3px solid var(--color3);
-    box-shadow: 0 0 10px var(--color3);
-}
-
-.github_project_header {
-    color: var(--color1);
-    background-color: var(--color3);
-    text-align: center;
-    padding: 10px 0;
-}
-
-.github_project_image {
-    width:293px;
-}
-
-.github_project_footer {
-    text-decoration: none;
-    color: var(--color1);
-    background-color: var(--color3);
-    padding: 10px 0;
-    text-align: center;
+.break_line {
+    margin: 10px 0;
 }
 
 .header1 {
@@ -210,3 +94,7 @@ body{
     text-align: center;
     text-shadow: 0 0 10px var(--color2);
 }
+
+
+
+

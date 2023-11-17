@@ -8,10 +8,10 @@ export default function Navbar()
             <div className="navbar_links">
                 <ul>
                     <li><Link href="/">Home</Link></li>
-                    <li><Link href="About">About</Link></li>
-                    <li><Link href="Projects">Projects</Link></li>
-                    <li><Link href="Contact">Contact</Link></li>
-                    <li><Link href="Impressum">Impressum</Link></li>
+                    <li><Link href="about">About</Link></li>
+                    <li><Link href="projects">Projects</Link></li>
+                    <li><Link href="contact">Contact</Link></li>
+                    <li><Link href="impressum">Impressum</Link></li>
                 </ul>
             </div>
     </nav>

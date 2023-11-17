@@ -1,0 +1,90 @@
+.about_image {
+    width: 200px;
+    height: 200px;
+    border: .3rem solid var(--color3);
+    border-radius: 100%;
+}
+.motivation-text {
+    max-width:38rem;
+    color: var(--color4);
+    padding-bottom: 10px;
+    text-align:justify;
+}
+
+.github_project {
+    background-color: var(--color2);
+    border: 3px solid var(--color3);
+    box-shadow: 0 0 10px var(--color3);
+}
+
+.github_project_header {
+    color: var(--color1);
+    background-color: var(--color3);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.github_project_image {
+    width:293px;
+}
+
+.github_project_footer {
+    text-decoration: none;
+    color: var(--color1);
+    background-color: var(--color3);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.skill_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap: 10px;
+    border: 0.1rem solid var(--color3);
+    box-shadow: 0 0 20px var(--color3);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.skill {
+    background-color: var(--color2);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 5px 10px black;
+    color: var(--color3);
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 2.5rem;
+    color: var(--color3);
+}
+
+.icon:hover {
+    color: var(--color4);
+}
+
+.cv_btn {
+    background-color: var(--color3);
+    color: white;
+    padding: 10px 20px;
+    border: 3px solid var(--color4);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.cv_btn:hover {
+    background-color: var(--color2);
+    border-color: var(--color3);
+}

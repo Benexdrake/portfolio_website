@@ -45,7 +45,7 @@ export default function Github(props:any)
 </div>
 <div style={{margin:'auto'}}>
 <div className="github_project">
-<a href={project.cloneUrl} style={{textDecoration:'none'}}>
+<a href={project.cloneUrl} target="_blank" style={{textDecoration:'none'}}>
     <div className="github_project_header">{project.name}</div>
     <div><img src={getImage(project.language)} alt="" className="github_project_image"/></div>
     <div className="github_project_footer"><p>{project.description || 'Open Project'}</p></div></a>

@@ -1,4 +1,6 @@
-//import 'bootstrap/dist/css/bootstrap.css'
+import '@/styles/navbar.css'
+import '@/styles/about.css'
+import '@/styles/home.css'
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 

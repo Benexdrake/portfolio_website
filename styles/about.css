@@ -1,0 +1,49 @@
+.aboutMe-Image {
+    border: 5px solid var(--color3);
+    border-radius: 100%;
+}
+
+.cv-left {
+    padding: 10px;
+    width: 300px;
+    background-color: var(--color1);
+    
+}
+
+.cv-right {
+    padding: 10px;
+    background-color: var(--color4);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.css-table-cell {
+    display: table-cell;
+    color: var(--color4);
+}
+
+.css-table-cell-left {
+    display: table-cell;
+    color: var(--color4);
+    width: 200px;
+}
+
+.css-table-cell-right {
+    display: table-cell;
+    color: var(--color4);
+    text-align: end;
+}
+
+.cv_icon {
+    font-size: 1.5rem;
+    color: var(--color3);
+    text-align: center;
+}
+
+.link {
+    color: var(--color4);
+    text-decoration: none;
+}
