@@ -26,6 +26,7 @@ export default function CV(props: any) {
                   <div className='header3'>
                     <h3 className="color3">SKILLS</h3>
                   </div>
+                  <br />
                       <CvSkillsBlock skills={aboutMe.skills} type="frontend" title="Frontend"/>
                       <CvSkillsBlock skills={aboutMe.skills} type="backend" title="Backend" />
                       <CvSkillsBlock skills={aboutMe.skills} type="others" title="Others" />

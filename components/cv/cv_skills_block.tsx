@@ -10,8 +10,8 @@ export default function CvSkillsBlock(props:any)
 
     return (
         <Fragment>
-                        <h4 className="color4 header1">{title}</h4>
-                      <div className='css-table' >
+                        <h4 className="color4 header4">{title}</h4>
+                      <div className='css-table' style={{margin:'0 20px'}}>
                         <div className=''>
                           {getSkills(type, skills).map((x: Skill) => {
                               return (

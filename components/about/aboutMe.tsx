@@ -6,7 +6,7 @@ export default function AboutMeBlock(abouttMe:any)
     
     return (
         <div className="box">
-          <h1 className="header1">About</h1>
+          <h1 className="header4">About</h1>
           <hr className="color3"/>
           <br />
         <div className="box_items">

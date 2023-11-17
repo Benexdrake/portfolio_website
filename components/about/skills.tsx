@@ -9,7 +9,7 @@ export default function Skills(props: any) {
 
   return (
     <div className="box">
-      <h1 className="header1">Skills</h1>
+      <h1 className="header4">Skills</h1>
       <hr className="color3"/>
       <br />
       <div className="skills_block">

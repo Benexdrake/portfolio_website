@@ -12,7 +12,7 @@ export default function Github(props:any)
         <div className="box">
         {user && (
 <div>
-<h1 className="header1">Github</h1>
+<h1 className="header4">Github</h1>
 <hr className="color3"/>
 <br />
 <div className="color4" style={{display:'flex', flexWrap:'wrap'}}>
