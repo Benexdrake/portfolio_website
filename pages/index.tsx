@@ -4,7 +4,6 @@ import Skills from "@/components/about/skills"
 import AboutMe_Service from "@/services/aboutMe"
 import {GetGithubUser, GetLastUpdatedProject} from "@/services/github";
 import { GithubUser } from "@/models/githubUser";
-import { Project } from "@/models/project";
 
 export default function Home(props:any) 
 {

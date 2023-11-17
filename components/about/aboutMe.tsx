@@ -14,7 +14,6 @@ export default function AboutMeBlock(abouttMe:any)
             <h5 className="color3">Hello I am</h5>
             <h1 className="color4">{me.name}</h1>
             <h3 className="color3">I am a {me.title}</h3>
-            <br />
             
             <p className="motivation-text">I am a motivated and versatile individual, always eager to take a new challenges.
                       With a passion for learning, i am dedicated to delivering high-quality results.
@@ -22,9 +21,17 @@ export default function AboutMeBlock(abouttMe:any)
                       contribution and achieve great things.</p>
                       <br />
                       <br />
-            <div style={{textAlign:'start'}}>
-            <a className="cv_btn" href="/Lebenslauf.pdf" target="_blank">Lebenslauf</a>
+            <div style={{textAlign:'end'}}>
+            <a className="button" href="/Lebenslauf.pdf" target="_blank">
+            <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+              Download CV</a>
             </div>
+            <br />
+            <br />
+            <br />
           </div>
           <div><img className="about_image" src="Me.png" alt="" />
           

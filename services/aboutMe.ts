@@ -1,4 +1,4 @@
-import aboutMe from '@/aboutMe.json'
+import aboutMe from '@/public/aboutMe.json'
 
 export default async function AboutMe_Service() 
 {
