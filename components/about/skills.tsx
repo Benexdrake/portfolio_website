@@ -1,6 +1,5 @@
-import { Skill } from "@/models/aboutMe";
-
-import { getSkills, getStars } from "@/lib/helper";
+import { Skill } from "@/types/aboutMe";
+import { getSkills} from "@/lib/helper";
 import SkillBlock from "../skills/skillBlock";
 
 export default function Skills(props: any) {

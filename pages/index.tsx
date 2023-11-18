@@ -3,11 +3,13 @@ import Github from "@/components/about/github"
 import Skills from "@/components/about/skills"
 import AboutMe_Service from "@/services/aboutMe"
 import {GetGithubUser, GetLastUpdatedProject} from "@/services/github";
-import { GithubUser } from "@/models/githubUser";
+import { GithubUser } from "@/types/githubUser";
+import { AboutMe } from "@/types/aboutMe";
+import { Project } from "@/types/project";
 
 export default function Home(props:any) 
 {
-let aboutMe = props.aboutMe;  
+let aboutMe = props.aboutMe as AboutMe;  
 let user = props.user;
 let project = JSON.parse(props.str);
 
@@ -24,9 +26,9 @@ let project = JSON.parse(props.str);
 
 export async function getServerSideProps()
 {
-  let aboutMe = await AboutMe_Service();
+  let aboutMe = await AboutMe_Service() as AboutMe;
   let user = await GetGithubUser() as GithubUser;
-  let project = await GetLastUpdatedProject();
+  let project = await GetLastUpdatedProject() as Project;
 
   let str = JSON.stringify(project)
 

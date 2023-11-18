@@ -1,4 +1,4 @@
-import { AboutMe } from "@/models/aboutMe";
+import { AboutMe } from "@/types/aboutMe";
 
 export default function AboutMeBlock(abouttMe:any)
 {
