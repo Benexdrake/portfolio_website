@@ -1,5 +1,5 @@
-import { GithubUser } from "@/models/githubUser";
-import { Project } from "@/models/project";
+import { GithubUser } from "@/types/githubUser";
+import { Project } from "@/types/project";
 import { Octokit } from "octokit";
 
 

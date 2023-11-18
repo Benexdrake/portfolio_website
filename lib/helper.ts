@@ -1,4 +1,4 @@
-import { Journey, Skill } from "@/models/aboutMe";
+import { Journey, Skill } from "@/types/aboutMe";
 
 export const getStars = (stars: number) => {
     const star = '★';
