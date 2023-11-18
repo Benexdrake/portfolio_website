@@ -1,5 +1,5 @@
 import { getIcon, getStars } from "@/lib/helper";
-import { Skill } from "@/models/aboutMe";
+import { Skill } from "@/types/aboutMe";
 
 export default function SkillBlock(props:any)
 {

@@ -1,5 +1,5 @@
 import { getSkills, getStars } from "@/lib/helper";
-import { Skill } from "@/models/aboutMe";
+import { Skill } from "@/types/aboutMe";
 import { Fragment } from "react";
 
 export default function CvSkillsBlock(props:any)
