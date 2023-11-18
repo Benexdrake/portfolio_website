@@ -9,13 +9,13 @@ export default function ProjectCard(props: any) {
 
   return (
     <Link href={route} style={{ textDecoration: 'none' }}>
-    <div className="project-card">
-      <Image src={`/assets/projects/${image}`} className="card-img-top" alt={title} width={300} height={200}/>
-      <div className="card-body">
-        <h5 className="card-title color4">{title}</h5>
-        <p className="card-text color4">{description}</p>
-      </div>
+
+<div className="article-card">
+    <div className="content">
+      <p className="description">{description}</p>
     </div>
+    <img src={`/assets/projects/${image}`} alt="" />
+  </div>
     </Link>
   );
 
