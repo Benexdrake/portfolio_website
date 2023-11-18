@@ -1,4 +1,5 @@
 import '@/styles/navbar.css'
+import '@/styles/projectCard.css'
 import '@/styles/about.css'
 import '@/styles/home.css'
 import '@/styles/globals.css'
