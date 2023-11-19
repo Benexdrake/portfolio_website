@@ -1,20 +1,22 @@
 import { getIcon, getStars } from "@/lib/helper";
 import { Skill } from "@/types/aboutMe";
 
+import style from '@/style_modules/home/skill.module.css'
+
 export default function SkillBlock(props:any)
 {
     let skills = props.skills as Skill[];
     let title = props.title as string;
 
     return (
-        <article key={title} style={{textAlign:'center', margin:'auto'}}>
-        <h3 className="header3">{title}</h3>
+        <article key={title}>
+        <h3 className={style.header}>{title}</h3>
         <br />
-        <div className="skill_block">
+        <div className={style.skill_block}>
           {skills.map(x => {
             if (x.type === title.toLowerCase()) {
               return (
-                <div key={x.title} className="skill">
+                <div key={x.title} className={style.skill}>
                   <img src={getIcon(x.icon)} alt="" height={50} />
                   <p>{getStars(x.stars)}</p>
                 </div>

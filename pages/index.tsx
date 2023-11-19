@@ -7,6 +7,8 @@ import { GithubUser } from "@/types/githubUser";
 import { AboutMe } from "@/types/aboutMe";
 import { Project } from "@/types/project";
 
+import style from '@/style_modules/home/index.module.css'
+
 export default function Home(props:any) 
 {
 let aboutMe = props.aboutMe as AboutMe;  
@@ -14,7 +16,7 @@ let user = props.user;
 let project = JSON.parse(props.str);
 
   return (
-    <div className="container">
+    <div className={style.container}>
       <AboutMeBlock aboutMe={aboutMe}/>
 
       <Skills skills = {aboutMe.skills}/>
