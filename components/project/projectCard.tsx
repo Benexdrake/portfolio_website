@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import style from '@/style_modules/projectCard.module.css'
+
 export default function ProjectCard(props: any) {
   const image = props.image;
   const title = props.title;
@@ -10,9 +12,9 @@ export default function ProjectCard(props: any) {
   return (
     <Link href={route} style={{ textDecoration: 'none' }}>
 
-<div className="article-card">
-    <div className="content">
-      <p className="description">{description}</p>
+<div className={style.card}>
+    <div className={style.content}>
+      <p className={style.description}>{description}</p>
     </div>
     <img src={`/assets/projects/${image}`} alt="" />
   </div>
