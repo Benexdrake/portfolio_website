@@ -7,7 +7,6 @@ import style from '@/style_modules/home/index.module.css'
 export default function Skills(props: any) {
   let skills = props.skills as Skill[];
 
-
   return (
     <div className={style.box}>
       <h1 className={style.header}>Skills</h1>
